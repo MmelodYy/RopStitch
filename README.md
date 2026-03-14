@@ -11,7 +11,7 @@
 > [Lang Nie](https://nie-lang.github.io/), [Yuan Mei](), [Kang Liao](https://kangliao929.github.io/), [Yunqiu Xu](), [Chunyu Lin](), [Bin Xiao]()
 
 >
-> [![arXiv](https://img.shields.io/badge/arXiv-2510.08673-b31b1b.svg)](https://arxiv.org/abs/2508.05903)
+> [![arXiv](https://img.shields.io/badge/arXiv-2508.05903-b31b1b.svg)](https://arxiv.org/abs/2508.05903)
 
 
 ## Dataset
