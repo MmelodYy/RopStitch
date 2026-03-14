@@ -1,13 +1,19 @@
-# <p align="center">Robust Image Stitching with Optimal Plane</p>
-<p align="center">Lang Nie<sup>∗</sup>, Yuan Mei<sup>†</sup>, Kang Liao<sup>‡</sup>, Yunqiu Xu<sup>§</sup>, Chunyu Lin<sup>¶</sup>, Bin Xiao<sup>∗</sup></p> 
-<p align="center"><sup>∗</sup> Chongqing Key Laboratory of Image Cognition, Chongqing University of Posts and Telecommunications</p> 
-<p align="center"><sup>†</sup> The Hong Kong Polytechnic University</p> 
-<p align="center"><sup>‡</sup> Nanyang Technological University</p> 
-<p align="center"><sup>§</sup> Zhejiang University</p> 
-<p align="center"><sup>¶</sup> Beijing Jiaotong University</p>
+<h1>
+  Robust Image Stitching with Optimal Plane
+</h1>
+
+<p align="center">
+  <img src="./framework.jpg" alt="framework" width="100%">
+</p>
+
+> **[Robust Image Stitching with Optimal Plane](https://arxiv.org/abs/2508.05903)**
+>
+> [Lang Nie](https://nie-lang.github.io/), [Yuan Mei](), [Kang Liao](https://kangliao929.github.io/), [Yunqiu Xu](), [Chunyu Lin](), [Bin Xiao]()
+
+>
+> [![arXiv](https://img.shields.io/badge/arXiv-2510.08673-b31b1b.svg)](https://arxiv.org/abs/2508.05903)
 
 
-![image](./framework.jpg)
 ## TODO
 
 - **Model**
@@ -18,7 +24,7 @@ We use the UDIS-D dataset to train and evaluate our method. Please refer to [UDI
 
 
 ## Code
-#### Requirement
+#### 🖥️ Requirement
 numpy >= 1.19.5
 
 pytorch >= 1.7.1
@@ -27,7 +33,7 @@ scikit-image >= 0.15.0
 
 tensorboard >= 2.9.0
 
-## Training
+## ✈️ Training
 ### Step1: Training the Aligment Model
 ```
 cd ./woCoefNet/Codes/
@@ -40,8 +46,7 @@ python train.py
 cd ./wCoefNet/Codes/
 python train.py --woCoefNet_path your_model_path
 ```
-
-## Testing 
+## 🖼️ Testing 
 Our pretrained models can be available at [Google Drive](https://drive.google.com/drive/folders/1U3kcNM7n_txQ69fjw7wT9EUyAVQZjDxC?usp=drive_link).
 
 ```
@@ -49,11 +54,25 @@ cd ./wCoefNet/Codes/
 python test.py --woCoefNet_path your_model_path
 ```
 
-## Fine-tuning
+## 🖼️ Fine-tuning
 
 ```
 cd ./wCoefNet/Codes/
 python test_finetune.py --woCoefNet_path your_model_path
+```
+
+## 📚 Citation
+
+If you find RopStitch useful for your research or applications, please cite our paper using the following BibTeX:
+
+```bibtex
+  @article{nie2026robust,
+  title={Robust Image Stitching with Optimal Plane},
+  author={Nie, Lang and Mei, Yuan and Liao, Kang and Xu, Xunqiu and Lin, Chunyu and Xiao, Bin},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2026},
+  publisher={IEEE}
+}
 ```
 
 ## Meta
